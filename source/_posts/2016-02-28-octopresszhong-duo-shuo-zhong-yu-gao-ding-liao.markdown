@@ -19,18 +19,18 @@ author: 无痕
 
  - **保持默认主题** ：这篇文章是按照Optopress安装时默认主题下进行多少功能的添加的，目录结构能对得上。如果安装了其他主题，不能保证目录结构有序，可能造成多说无法运行，那就很悲催了。
  - **补充代码** ： 需要补充如下代码：
- ###### 在_config.yml中添加开关：
-
- ```
- # comment and share
-   comment_share: true
- ```
-###### 然后在source/_includes/post/sharing.html中添加如下代码：
+ ######  在_config.yml中添加开关：
 
   ```
-  {% if site.comment_share %}
-  {% include post/duoshuo.html %}
-  {% endif %}
+    # comment and share
+    comment_share: true
+  ```
+  ###### 然后，在source/\_includes/post/sharing.html中添加如下代码
+
+  ```
+    {% if site.comment_share %}
+    {% include post/duoshuo.html %}
+    {% endif %}
   ```
 
 
