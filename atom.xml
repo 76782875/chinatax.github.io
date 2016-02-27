@@ -4,7 +4,7 @@
   <title><![CDATA[税月无痕]]></title>
   <link href="http://chinatax.github.io/atom.xml" rel="self"/>
   <link href="http://chinatax.github.io/"/>
-  <updated>2016-02-28T00:54:38+08:00</updated>
+  <updated>2016-02-28T01:13:12+08:00</updated>
   <id>http://chinatax.github.io/</id>
   <author>
     <name><![CDATA[无  痕]]></name>
@@ -35,15 +35,16 @@
 </ul>
 
 
-<pre><code class="`"> # comment and share
-   comment_share: true
+<pre><code class="``">    # comment and share
+    comment_share: true
 </code></pre>
 
-<h6>然后在source/_includes/post/sharing.html中添加如下代码：</h6>
+<p>  ###### 然后，在source/_includes/post/sharing.html中添加如下代码</p>
 
 <p>  ```</p>
 
-<p>  <!-- Duoshuo Comment BEGIN --></p>
+<pre><code>&lt;!-- Duoshuo Comment BEGIN --&gt;
+</code></pre>
 
 <div class="ds-thread" data-title="Octopress中多说终于搞定了"></div>
 
