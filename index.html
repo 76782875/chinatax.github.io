@@ -9,7 +9,8 @@
   <meta name="author" content="无  痕">
 
   
-  <meta name="description" content="今天是2016年2月27日，今晚中国超级杯在山城重庆开打。对阵的是广州恒大VS江苏苏宁，这是一场“王中王”的巅峰对决。这是历史上最贵的对决，双方队员加起来，身价超过13亿元。江苏苏宁的特谢拉 5000万欧元，拉米雷斯 和恒大的马丁内斯 4200万欧元。贵啊。 ">
+  <meta name="description" content="搞了很多遍，终于搞定了给Optopress添加多说功能，很赞。 在此，要感谢这篇文章， 希望链接不要失效。
+按照这篇文章做，基本上能实现增加多说功能，但也需要补充，在这里一并说明： 保持默认主题 ：这篇文章是按照Optopress安装时默认主题下进行多少功能的添加的，目录结构能对得上。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,6 +70,86 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2016/02/28/octopresszhong-duo-shuo-zhong-yu-gao-ding-liao/">Octopress中多说终于搞定了</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-02-28T00:24:14+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>28</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>12:24 am</span></time>
+        
+
+        
+         | <a href="/blog/2016/02/28/octopresszhong-duo-shuo-zhong-yu-gao-ding-liao/#comments">Comments</a>
+        
+
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>搞了很多遍，终于搞定了给Optopress添加多说功能，很赞。</p></blockquote>
+
+<hr />
+
+<p><img src="http://cepos.img47.wal8.com/img47/537802_20160227224327/145659192877.jpg" alt="特此祝贺" /></p>
+
+<p><a href="http://havee.me/internet/2013-02/add-duoshuo-commemt-system-into-octopress.html">在此，要感谢这篇文章，</a> 希望链接不要失效。
+按照这篇文章做，基本上能实现增加多说功能，但也需要补充，在这里一并说明：</p>
+
+<ul>
+<li><strong>保持默认主题</strong> ：这篇文章是按照Optopress安装时默认主题下进行多少功能的添加的，目录结构能对得上。如果安装了其他主题，不能保证目录结构有序，可能造成多说无法运行，那就很悲催了。</li>
+<li><strong>补充代码</strong> ： 需要补充如下代码：
+
+<h6>在_config.yml中添加开关：</h6></li>
+</ul>
+
+
+<pre><code class="`"> # comment and share
+   comment_share: true
+</code></pre>
+
+<h6>然后在source/_includes/post/sharing.html中添加如下代码：</h6>
+
+<p>  ```</p>
+
+<p>  <!-- Duoshuo Comment BEGIN --></p>
+
+<div class="ds-thread" data-title="Octopress中多说终于搞定了"></div>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"tigerwuaq"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>
+
+
+<!-- Duoshuo Comment END -->
+
+
+<p>  ```</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2016/02/27/jin-ri-kai-tong-bo-ke-liu-ge-ji-nian/">Octopress 在github上安家,留个纪念</a></h1>
     
     
@@ -115,6 +196,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/02/28/octopresszhong-duo-shuo-zhong-yu-gao-ding-liao/">Octopress中多说终于搞定了</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/02/27/jin-ri-kai-tong-bo-ke-liu-ge-ji-nian/">Octopress 在github上安家,留个纪念</a>
       </li>
     
@@ -123,7 +208,8 @@
 <section>
  <h1>分类目录</h1>
  <ul id="categories">
-	 <li class='category'><a href='/blog/categories/za-qi-za-ba/'>杂七杂八 (1)</a></li>
+	 <li class='category'><a href='/blog/categories/jian-zhan/'>建站 (1)</a></li>
+<li class='category'><a href='/blog/categories/za-qi-za-ba/'>杂七杂八 (1)</a></li>
 
  </ul>
 </section>

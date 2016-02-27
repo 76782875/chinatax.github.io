@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://chinatax.github.io/blog/2016/02/28/octopresszhong-duo-shuo-zhong-yu-gao-ding-liao/</loc>
+<lastmod>2016-02-28T00:24:14+08:00</lastmod>
+</url>
+<url>
 <loc>http://chinatax.github.io/blog/2016/02/27/jin-ri-kai-tong-bo-ke-liu-ge-ji-nian/</loc>
 <lastmod>2016-02-27T19:00:31+08:00</lastmod>
 </url>
@@ -12,5 +16,8 @@
 </url>
 <url>
 <loc>http://chinatax.github.io/blog/categories/za-qi-za-ba/</loc>
+</url>
+<url>
+<loc>http://chinatax.github.io/blog/categories/jian-zhan/</loc>
 </url>
 </urlset>
