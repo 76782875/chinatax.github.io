@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 建站 | 税月无痕]]></title>
   <link href="http://chinatax.github.io/blog/categories/jian-zhan/atom.xml" rel="self"/>
   <link href="http://chinatax.github.io/"/>
-  <updated>2016-02-28T01:13:12+08:00</updated>
+  <updated>2016-02-28T01:20:01+08:00</updated>
   <id>http://chinatax.github.io/</id>
   <author>
     <name><![CDATA[无  痕]]></name>
@@ -20,8 +20,6 @@
     <id>http://chinatax.github.io/blog/2016/02/28/octopresszhong-duo-shuo-zhong-yu-gao-ding-liao</id>
     <content type="html"><![CDATA[<blockquote><p>搞了很多遍，终于搞定了给Optopress添加多说功能，很赞。</p></blockquote>
 
-<hr />
-
 <p><img src="http://cepos.img47.wal8.com/img47/537802_20160227224327/145659192877.jpg" alt="特此祝贺" /></p>
 
 <p><a href="http://havee.me/internet/2013-02/add-duoshuo-commemt-system-into-octopress.html">在此，要感谢这篇文章，</a> 希望链接不要失效。
@@ -30,8 +28,7 @@
 <ul>
 <li><strong>保持默认主题</strong> ：这篇文章是按照Optopress安装时默认主题下进行多少功能的添加的，目录结构能对得上。如果安装了其他主题，不能保证目录结构有序，可能造成多说无法运行，那就很悲催了。</li>
 <li><strong>补充代码</strong> ： 需要补充如下代码：
-
-<h6>在_config.yml中添加开关：</h6></li>
+在_config.yml中添加开关：</li>
 </ul>
 
 
@@ -39,7 +36,7 @@
     comment_share: true
 </code></pre>
 
-<p>  ###### 然后，在source/_includes/post/sharing.html中添加如下代码</p>
+<p>  然后，在source/_includes/post/sharing.html中添加如下代码：</p>
 
 <pre><code class="``">    
     <!-- Duoshuo Comment BEGIN -->
