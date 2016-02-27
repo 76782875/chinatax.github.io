@@ -25,7 +25,7 @@ author: 无痕
     # comment and share
     comment_share: true
   ```
-  然后，在source/\_includes/post/sharing.html中添加如下代码：
+  然后，在source文件夹的_includes/post/sharing.html中添加如下代码：
 
   ```
     {% if site.comment_share %}
