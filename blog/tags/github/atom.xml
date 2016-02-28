@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: 杂七杂八 | 税月无痕]]></title>
-  <link href="http://chinatax.github.io/blog/categories/za-qi-za-ba/atom.xml" rel="self"/>
+  <title><![CDATA[Tag: github | 税月无痕]]></title>
+  <link href="http://chinatax.github.io/blog/tags/github/atom.xml" rel="self"/>
   <link href="http://chinatax.github.io/"/>
   <updated>2016-02-28T17:43:36+08:00</updated>
   <id>http://chinatax.github.io/</id>
