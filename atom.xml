@@ -4,7 +4,7 @@
   <title><![CDATA[税月无痕]]></title>
   <link href="http://chinatax.github.io/atom.xml" rel="self"/>
   <link href="http://chinatax.github.io/"/>
-  <updated>2016-02-28T11:32:53+08:00</updated>
+  <updated>2016-02-28T13:27:47+08:00</updated>
   <id>http://chinatax.github.io/</id>
   <author>
     <name><![CDATA[无  痕]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress主题及样式修改]]></title>
+    <link href="http://chinatax.github.io/blog/2016/02/28/octopresszhu-ti-ji-yang-shi-xiu-gai/"/>
+    <updated>2016-02-28T13:24:43+08:00</updated>
+    <id>http://chinatax.github.io/blog/2016/02/28/octopresszhu-ti-ji-yang-shi-xiu-gai</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[第四篇文章]]></title>
+    <link href="http://chinatax.github.io/blog/2016/02/28/di-si-pian-wen-zhang/"/>
+    <updated>2016-02-28T13:15:57+08:00</updated>
+    <id>http://chinatax.github.io/blog/2016/02/28/di-si-pian-wen-zhang</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[为博客添加统计和SEO功能]]></title>
