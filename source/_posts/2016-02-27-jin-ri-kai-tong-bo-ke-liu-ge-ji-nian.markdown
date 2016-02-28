@@ -5,6 +5,9 @@ date: 2016-02-27 19:00:31 +0800
 comments: true
 author: 无痕
 categories: 杂七杂八
+tags: [octopress, github, 安家,纪念]
+keywords: octopress, github上安家,留个纪念 
+description: Octopress 在github上安家,留个纪念
 ---
 > 今天是2016年2月27日，今晚中国超级杯在山城重庆开打。对阵的是广州恒大VS江苏苏宁，这是一场“王中王”的巅峰对决。这是历史上最贵的对决，双方队员加起来，身价超过13亿元。江苏苏宁的特谢拉 5000万欧元，拉米雷斯 和恒大的马丁内斯 4200万欧元。贵啊。
 
