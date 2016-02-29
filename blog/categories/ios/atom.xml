@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ios | 税月无痕]]></title>
+  <link href="http://chinatax.github.io/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://chinatax.github.io/"/>
+  <updated>2016-02-29T11:04:45+08:00</updated>
+  <id>http://chinatax.github.io/</id>
+  <author>
+    <name><![CDATA[无  痕]]></name>
+    <email><![CDATA[josewu2007@sina.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[IOS程序开发基础]]></title>
+    <link href="http://chinatax.github.io/blog/2016/02/28/di-si-pian-wen-zhang/"/>
+    <updated>2016-02-28T13:15:57+08:00</updated>
+    <id>http://chinatax.github.io/blog/2016/02/28/di-si-pian-wen-zhang</id>
+    <content type="html"><![CDATA[<p><img src="http://cepos.img47.wal8.com/img47/537802_20160227224327/145662959863.jpg" alt="上图" /></p>
+
+<h4>概览</h4>
+
+<blockquote><p>终于到了真正接触IOS应用程序的时刻了，之前我们花了很多时间去讨论C语言、ObjC等知识，对于很多朋友而言开发IOS第一天就想直接看到成果，看到可以运行的IOS程序。但是这里我想强调一下，前面的知识是你日后开发IOS的基础，没有那些知识你开发IOS会很痛苦，现在很多开发人员做开发都是一知半解，程序质量确实令人担忧，所以还是希望大家能够熟练掌握前面的内容，开发过程中多思考，彻底理解程序运行的原理、机制。好了言归正传，不管怎么样正式进入IOS开发还是令人兴奋的，今天的内容虽然说是开发预览，其实还是有大量内容要说的：</p></blockquote>
+
+<ul>
+<li>[ ]第一个iOS程序</li>
+<li>[ ]iOS程序运行过程</li>
+<li>[ ]文件结构</li>
+<li>[ ]Storyboard</li>
+<li>[ ]纯代码实现iOS开发</li>
+<li>[ ]补充知识点</li>
+</ul>
+
+
+<h4>第一个iOS程序</h4>
+
+<p>(未完待续)</p>
+]]></content>
+  </entry>
+  
+</feed>
