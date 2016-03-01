@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: java环境设置 | 税月无痕]]></title>
   <link href="http://chinatax.github.io/blog/tags/javahuan-jing-she-zhi/atom.xml" rel="self"/>
   <link href="http://chinatax.github.io/"/>
-  <updated>2016-03-01T23:42:02+08:00</updated>
+  <updated>2016-03-02T00:12:53+08:00</updated>
   <id>http://chinatax.github.io/</id>
   <author>
     <name><![CDATA[无  痕]]></name>
@@ -71,7 +71,11 @@ export >JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Hom
 
 <p>重启一下终端，输入
 java -version
-看到有显示就完成了</p></blockquote>
+看到有显示就完成了.</p></blockquote>
+
+<h6>注意：</h6>
+
+<p>maven 3.3 .3貌似还不支持jdk8，我也遇到了这问题,最后换了7好了官网貌似说支持7及以上的版本，但是确实不行。不过java多版本可以同时存在，你不想删除8可以重新再装个7或6，alias命令动态切换java版本就可以了。具体操作：1、打开终端 cd到根路径， cd －2、输入vi .bash_profile打开bash配置文件3、再配置文件bash配置文件下新增JAVA_HOME的路径export JAVA_6_HOME=/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Homeexport JAVA_7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Homeexport JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Homeexport JAVA_HOME=$JAVA_7_HOME4、创建alias命令动态切换JAVA_HOME的配置 alias jdk8=&lsquo;export JAVA_HOME=$JAVA_8_HOME'alias jdk7='export JAVA_HOME=$JAVA_7_HOME'alias jdk6='export JAVA_HOME=$JAVA_6_HOME'5、终端输入source .bash_profile 保存配置文件配置的默认是7，想切换8直接终端输入jdk8就切换成8了。</p>
 ]]></content>
   </entry>
   
