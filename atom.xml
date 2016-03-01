@@ -4,7 +4,7 @@
   <title><![CDATA[税月无痕]]></title>
   <link href="http://chinatax.github.io/atom.xml" rel="self"/>
   <link href="http://chinatax.github.io/"/>
-  <updated>2016-02-29T11:20:08+08:00</updated>
+  <updated>2016-03-01T23:42:02+08:00</updated>
   <id>http://chinatax.github.io/</id>
   <author>
     <name><![CDATA[无  痕]]></name>
@@ -14,11 +14,64 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Octopress主题及样式修改]]></title>
+    <title type="html"><![CDATA[Mac下设置JAVA环境]]></title>
     <link href="http://chinatax.github.io/blog/2016/02/28/octopresszhu-ti-ji-yang-shi-xiu-gai/"/>
     <updated>2016-02-28T13:24:43+08:00</updated>
     <id>http://chinatax.github.io/blog/2016/02/28/octopresszhu-ti-ji-yang-shi-xiu-gai</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p><img src="http://cepos.img47.wal8.com/img47/537802_20160227224327/145684686497.jpg" alt="庆祝江苏苏宁亚冠胜韩国现代" /></p>
+
+<blockquote><p>注意：配置文件的路径不是/etc/profile或~/.bash_profile</p>
+
+<h4>Mac下添加java环境变量</h4></blockquote>
+
+<h6>方法一：全局配置</h6>
+
+<blockquote><p>临时提权
+sudo su
+输入密码
+vi /etc/profile</p>
+
+<h1>配置JAVA_HOME，此处路径根据自己的版本填写</h1>
+
+<p>JAVA_HOME=&ldquo;/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/&rdquo;
+CLASS_PATH=&ldquo;$JAVA_HOME/lib&rdquo;
+把JAVA添加到到环境变量PATH中
+PATH=&ldquo;.:$PATH:$JAVA_HOME/bin&rdquo;
+设置tomcat的主目录
+CATALINA_HOME=&ldquo;/usr/local/tomcat"（tomcat需自行提前安装好）
+将JAVA_HOME和CATALINA_HOME设置为环境变量
+export JAVA_HOME CATALINA_HOME
+export JAVA_HOME</p></blockquote>
+
+<h6>方法二：针对单独用户配置</h6>
+
+<blockquote><p>以下进入啰嗦模式演示添加jdk7
+下载jdk7的mac版
+官网下载地址<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html</a>
+下载类似jdk-7u67-macosx-x64.dmg，版本号可能会更新
+安装好之后，进入以下路径查看
+cd /Library/Java/JavaVirtualMachines/
+再查看你自己安装的版本
+ls
+进入目录(有多个版本，则手动输入期望的版本；只有一个版本，则输入cd空格后可以直接按tab键自动补全)
+cd jdk1.7.0_67.jdk/Contents/Home</p>
+
+<p>复制jdk home的路径，在当前目录输入pwd
+pwd
+把显示出来的路径先复制起来</p>
+
+<p>进入用户主目录，然后看一下有没有.bash_profile文件
+cd ~
+ls -all
+编辑.bash_profile文件(没有则新建，命令touch .bash_profile)
+vim .bash_profile
+英文模式下，按一下i键进入编辑模式，输入以下内容，路径部分自己粘贴自己的
+export >JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home
+输完后，按esc，再按冒号(shift+;)，输入wq保存即可</p>
+
+<p>重启一下终端，输入
+java -version
+看到有显示就完成了</p></blockquote>
 ]]></content>
   </entry>
   
